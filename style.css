@@ -1,3 +1,86 @@
-*{
-    
+.periodical-schedule{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 330px;
+    border-radius: 20px;
+    height: 520px;
+    transform: translate(-50%, -50%);
+    background: #fdfdfd;
+    box-shadow: 0 8px 25px rgba(0,0,0,.6);
+}
+.image-wrapper{
+    height: 35%;
+    background: hsl(246, 73%, 45%);
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;    
+}
+.summary{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+.text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(131, 131, 131);
+    margin: 20px;
+}
+.time{
+    display: flex;
+    background: rgb(237, 234, 234);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.icon{
+    padding-top: 10px;
+    background: #ccc;
+    padding: 10px;
+    border-radius: 50%;
+}
+.date{
+    padding-left: 14px;
+    font-weight: bold;
+}
+.date span{
+    color: rgb(134, 134, 134);
+}
+.change{
+    padding-top: 10px;
+    width: 8vh;
+    margin-left: 60px;
+}
+.payment{
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(246, 73%, 45%);
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 7px 10px 10px #ccc;
+}
+.payment a{
+    text-decoration: none;
+    color: #fff;
+}
+.payment a:hover{
+    color: rgb(69, 228, 228);
+    transition: 0.8S ease-in-out;
+}
+.cancel{
+    text-align: center;
+}
+.cancel a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+    text-shadow: 4px 6px 2px #ccc;
+}
+.cancel a:hover{
+    color: hsl(246, 53%, 49%);
+    transition: 0.8 ease-in-out;
 }
