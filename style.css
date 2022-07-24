@@ -1,4 +1,4 @@
-.periodical-schedule{
+.card-wrapper{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -9,7 +9,7 @@
     background: #fdfdfd;
     box-shadow: 0 8px 25px rgba(0,0,0,.6);
 }
-.image-wrapper{
+.image-container{
     height: 35%;
     background: hsl(246, 73%, 45%);
     border-radius: 20px;
@@ -30,7 +30,7 @@
     color: rgb(131, 131, 131);
     margin: 20px;
 }
-.time{
+.schedule{
     display: flex;
     background: rgb(237, 234, 234);
     margin: 20px;
@@ -43,11 +43,13 @@
     padding: 10px;
     border-radius: 50%;
 }
-.date{
-    padding-left: 14px;
+.period{
+    padding-left: 15px;
+    padding-top: 4px;
     font-weight: bold;
+    font-size: 15px;
 }
-.date span{
+.period span{
     color: rgb(134, 134, 134);
 }
 .change{
